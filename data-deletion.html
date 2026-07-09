@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exclusão de conta e dados — Lembrete de Manutenção</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 28px 20px 60px;
+    color: #181c1b; background: #f5f8f6;
+  }
+  a { color: #00696d; }
+  h1 { font-size: 27px; letter-spacing: -.4px; margin: 0; }
+  h2 { font-size: 19px; margin: 34px 0 10px; }
+  .muted { color: #414846; font-size: 14px; }
+  .header { display: flex; align-items: center; gap: 15px; margin-bottom: 8px; }
+  .icon {
+    width: 58px; height: 58px; border-radius: 16px; flex: none;
+    background: linear-gradient(135deg, #0c8488, #00373a);
+    display: flex; align-items: center; justify-content: center;
+  }
+  nav { display: flex; gap: 8px; margin: 18px 0 26px; flex-wrap: wrap; }
+  nav a {
+    display: inline-block; padding: 8px 16px; border-radius: 999px;
+    font-size: 13.5px; font-weight: 600; text-decoration: none; border: 1px solid #dce4e1;
+  }
+  nav a.active { background: #9cf0f2; color: #00201f; border-color: transparent; }
+  .card {
+    background: #fff; border: 1px solid #dce4e1; border-radius: 16px;
+    padding: 16px 20px; margin: 14px 0;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  code { background: rgba(127,127,127,.16); padding: 1px 6px; border-radius: 6px; font-size: 90%; }
+  strong { font-weight: 700; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e0e3e1; background: #0f1413; }
+    a { color: #4fdadd; }
+    .muted { color: #a6adab; }
+    .card { background: #171d1c; border-color: #2d3633; }
+    nav a { border-color: #2d3633; }
+    nav a.active { background: #004f50; color: #9cf0f2; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="icon">
+    <svg width="34" height="34" viewBox="0 0 512 512" fill="none" stroke="#b7f6f7" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(256,256)">
+        <circle r="176" stroke-width="26"/>
+        <path d="M0,-146 L0,-124 M124,0 L146,0 M0,124 L0,146 M-146,0 L-124,0" stroke-width="21"/>
+        <path d="M0,0 L-64,-37" stroke-width="24"/>
+        <g transform="rotate(55)">
+          <path d="M0,8 L0,-70" stroke-width="24"/>
+          <path d="M-12,-142 L-12,-124 A27,27 0 1 1 12,-124 L12,-142" stroke-width="21"/>
+        </g>
+        <circle r="13" fill="#b7f6f7" stroke="none"/>
+      </g>
+    </svg>
+  </div>
+  <div>
+    <h1>Exclusão de conta e dados</h1>
+    <div class="muted">Lembrete de Manutenção · desenvolvedor Melqui</div>
+  </div>
+</div>
+
+<nav>
+  <a href="./">Política de Privacidade</a>
+  <a href="./data-deletion.html" class="active">Exclusão de dados</a>
+</nav>
+
+<p>
+  Esta página explica como os usuários do aplicativo <strong>Lembrete de Manutenção</strong>
+  (pacote <code>com.melqui.manutencoes</code>) podem solicitar a exclusão da sua conta e dos
+  dados associados.
+</p>
+
+<h2>Excluir diretamente no aplicativo</h2>
+<div class="card">
+  <ol>
+    <li>Abra o aplicativo <strong>Lembrete de Manutenção</strong>.</li>
+    <li>Toque no menu (⋮) no canto superior direito da tela inicial e escolha <strong>Configurações</strong>.</li>
+    <li>Faça login com sua Conta do Google, caso ainda não esteja conectado (a opção de exclusão só aparece quando há uma conta conectada).</li>
+    <li>Na seção <strong>Outros</strong>, toque em <strong>Excluir conta e dados</strong>.</li>
+    <li>Confirme na caixa de diálogo. A ação é imediata e permanente.</li>
+  </ol>
+</div>
+
+<h2>Solicitar por e-mail</h2>
+<p>
+  Se não conseguir acessar o aplicativo, envie um e-mail para
+  <a href="mailto:melquenerd@gmail.com?subject=Exclus%C3%A3o%20de%20conta%20-%20Lembrete%20de%20Manuten%C3%A7%C3%A3o">melquenerd@gmail.com</a>
+  com o assunto <em>"Exclusão de conta - Lembrete de Manutenção"</em>, a partir do mesmo e-mail
+  usado para entrar no app. A solicitação é processada em até 30 dias.
+</p>
+
+<h2>O que é excluído</h2>
+<div class="card">
+  <p>Ao concluir a exclusão, são removidos <strong>permanentemente</strong>:</p>
+  <ul>
+    <li>A conta de autenticação (Google/Firebase) associada ao aplicativo;</li>
+    <li>Todos os dados de backup na nuvem: manutenções, categorias, histórico de conclusões e preferências;</li>
+    <li>Os dados salvos no próprio aparelho (quando a exclusão é feita pelo aplicativo).</li>
+  </ul>
+</div>
+
+<h2>O que é mantido</h2>
+<p>
+  Não retemos dados pessoais após a exclusão. Registros técnicos anônimos de falhas (Crashlytics),
+  que não identificam o usuário, podem permanecer por até <strong>90 dias</strong> nos servidores do
+  provedor antes de serem descartados automaticamente. Nenhum outro dado é mantido além do período
+  necessário exigido por lei.
+</p>
+
+<p class="muted">Última atualização: julho de 2026.</p>
+
+</body>
+</html>

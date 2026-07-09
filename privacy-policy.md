@@ -1,47 +1,46 @@
-Política de Privacidade – Lembrete de Manutenção
+# Política de Privacidade — Lembrete de Manutenção
 
-Última atualização: (28/01/2026)
+**Última atualização:** julho de 2026
+**Desenvolvedor:** Melqui · **Pacote:** com.melqui.manutencoes
 
-O aplicativo Lembrete de Manutenção respeita a sua privacidade. Esta Política descreve como os dados são tratados ao utilizar o aplicativo.
+O aplicativo **Lembrete de Manutenção** respeita a sua privacidade. Esta Política descreve quais dados são tratados e por quê ao utilizar o app. A versão navegável está em https://deic1da.github.io/manutencoes-privacy/
 
-1. Dados coletados
+## 1. Dados no seu aparelho
+As manutenções, categorias, datas, intervalos e o histórico de conclusões que você cadastra são salvos localmente no aparelho (Room/SQLite). Sem login, nada disso sai do dispositivo.
 
-O aplicativo não exige cadastro e não coleta dados pessoais diretamente (como nome, e-mail ou telefone).
+## 2. Backup na nuvem (opcional)
+Se você optar por entrar com sua Conta do Google, o app ativa o backup na nuvem. Nesse caso são tratados:
+- **E-mail, nome e ID da Conta do Google** (Firebase Authentication), para identificar sua conta;
+- **Seus dados de manutenção** (manutenções, categorias, histórico e preferências), guardados no Google Cloud Firestore vinculados à sua conta, para sincronizar entre aparelhos.
 
-As informações cadastradas pelo usuário (manutenções, categorias, datas e intervalos) são armazenadas apenas no dispositivo, localmente.
+O login é totalmente opcional. Sem ele, o app funciona apenas com dados locais.
 
-2. Armazenamento local
+## 3. Relatórios de falha
+O app usa o Firebase Crashlytics, que coleta registros de falhas, diagnóstico e identificadores do dispositivo quando ocorre um erro. Esses relatórios são técnicos e não identificam você pessoalmente.
 
-Os dados inseridos pelo usuário são salvos utilizando banco de dados local (Room/SQLite) e permanecem no aparelho.
-O aplicativo não envia essas informações para servidores externos.
+## 4. Publicidade
+O app exibe anúncios do Google AdMob, que pode coletar o ID de publicidade e dados do aparelho. Em regiões que exigem, é exibido um formulário de consentimento (Google User Messaging Platform) antes de carregar anúncios, e a escolha pode ser revista em Configurações → Privacidade dos anúncios.
 
-3. Publicidade
+## 5. Compartilhamento de dados
+Não vendemos dados pessoais. Os serviços do Google (Authentication, Firestore e Crashlytics) atuam como processadores em nosso nome. O ID de publicidade é tratado pelo Google AdMob. Consulte: https://policies.google.com/privacy
 
-O aplicativo pode exibir anúncios através do Google AdMob.
-O AdMob pode coletar dados técnicos e identificadores do dispositivo (como ID de publicidade, informações do aparelho e interações com anúncios) conforme suas próprias políticas.
+## 6. Permissões
+- **Notificações** — enviar os lembretes;
+- **Alarme exato** — disparar o lembrete no horário programado;
+- **Executar ao iniciar / ignorar otimização de bateria** — manter os lembretes confiáveis com o app fechado;
+- **Internet** — backup na nuvem e anúncios.
 
-Para mais informações, consulte:
-Política de Privacidade do Google: https://policies.google.com/privacy
+## 7. Retenção e exclusão de dados
+Você pode excluir sua conta e todos os dados a qualquer momento. Passo a passo em https://deic1da.github.io/manutencoes-privacy/data-deletion.html
 
-4. Compartilhamento de dados
+## 8. Público
+Este aplicativo não é direcionado a crianças.
 
-O app não compartilha dados pessoais do usuário com terceiros, exceto informações tratadas automaticamente pelo provedor de anúncios.
+## 9. Segurança
+Os dados trafegam de forma criptografada (HTTPS). Nenhuma tecnologia é 100% segura.
 
-5. Permissões
+## 10. Alterações
+Esta Política pode ser atualizada a qualquer momento.
 
-O aplicativo pode solicitar a permissão:
-
-POST_NOTIFICATIONS: usada para enviar lembretes de manutenções.
-
-6. Segurança
-
-O aplicativo utiliza boas práticas para armazenar dados localmente, porém nenhuma tecnologia é 100% segura.
-
-7. Alterações
-
-Esta Política pode ser atualizada a qualquer momento. Recomendamos revisá-la periodicamente.
-
-8. Contato
-
-Em caso de dúvidas, entre em contato:
-📧 (melquenerd@gmail.com)
+## 11. Contato
+📧 melquenerd@gmail.com

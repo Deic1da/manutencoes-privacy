@@ -1,111 +1,171 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Política de Privacidade – Lembrete de Manutenção</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 18px;
-      line-height: 1.6;
-      background: #0f0f12;
-      color: #eaeaea;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 5px;
-      color: #ffffff;
-    }
-    h2 {
-      margin-top: 28px;
-      font-size: 20px;
-      color: #cdb8ff;
-    }
-    .date {
-      color: #aaa;
-      margin-bottom: 25px;
-    }
-    a {
-      color: #cdb8ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .box {
-      background: #1b1b22;
-      padding: 16px 18px;
-      border-radius: 12px;
-      border: 1px solid #2b2b36;
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de Privacidade — Lembrete de Manutenção</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 28px 20px 60px;
+    color: #181c1b; background: #f5f8f6;
+  }
+  a { color: #00696d; }
+  h1 { font-size: 27px; letter-spacing: -.4px; margin: 0; }
+  h2 { font-size: 19px; margin: 34px 0 10px; }
+  .muted { color: #414846; font-size: 14px; }
+  .header {
+    display: flex; align-items: center; gap: 15px; margin-bottom: 8px;
+  }
+  .icon {
+    width: 58px; height: 58px; border-radius: 16px; flex: none;
+    background: linear-gradient(135deg, #0c8488, #00373a);
+    display: flex; align-items: center; justify-content: center;
+  }
+  nav {
+    display: flex; gap: 8px; margin: 18px 0 26px; flex-wrap: wrap;
+  }
+  nav a {
+    display: inline-block; padding: 8px 16px; border-radius: 999px;
+    font-size: 13.5px; font-weight: 600; text-decoration: none;
+    border: 1px solid #dce4e1;
+  }
+  nav a.active { background: #9cf0f2; color: #00201f; border-color: transparent; }
+  .card {
+    background: #fff; border: 1px solid #dce4e1; border-radius: 16px;
+    padding: 16px 20px; margin: 14px 0;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  code { background: rgba(127,127,127,.16); padding: 1px 6px; border-radius: 6px; font-size: 90%; }
+  strong { font-weight: 700; }
+  .pill {
+    display: inline-block; padding: 2px 10px; border-radius: 999px;
+    background: #9cf0f2; color: #00201f; font-size: 12.5px; font-weight: 700;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e0e3e1; background: #0f1413; }
+    a { color: #4fdadd; }
+    .muted { color: #a6adab; }
+    .card { background: #171d1c; border-color: #2d3633; }
+    nav a { border-color: #2d3633; }
+    nav a.active { background: #004f50; color: #9cf0f2; }
+    .pill { background: #004f50; color: #9cf0f2; }
+  }
+</style>
 </head>
-
 <body>
-  <div class="box">
-    <h1>Política de Privacidade – Lembrete de Manutenção</h1>
-    <div class="date"><b>Última atualização:</b> 28/01/2026</div>
 
-    <p>
-      O aplicativo <b>Lembrete de Manutenção</b> respeita a sua privacidade.
-      Esta Política descreve como os dados são tratados ao utilizar o aplicativo.
-    </p>
-
-    <h2>1. Dados coletados</h2>
-    <p>
-      O aplicativo não exige cadastro e não coleta dados pessoais diretamente (como nome, e-mail ou telefone).
-    </p>
-    <p>
-      As informações cadastradas pelo usuário (manutenções, categorias, datas e intervalos) são armazenadas apenas no dispositivo, localmente.
-    </p>
-
-    <h2>2. Armazenamento local</h2>
-    <p>
-      Os dados inseridos pelo usuário são salvos utilizando banco de dados local (Room/SQLite) e permanecem no aparelho.
-      O aplicativo não envia essas informações para servidores externos.
-    </p>
-
-    <h2>3. Publicidade</h2>
-    <p>
-      O aplicativo pode exibir anúncios através do <b>Google AdMob</b>.
-      O AdMob pode coletar dados técnicos e identificadores do dispositivo (como ID de publicidade, informações do aparelho e interações com anúncios)
-      conforme suas próprias políticas.
-    </p>
-
-    <p>
-      Para mais informações, consulte:<br>
-      <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>
-    </p>
-
-    <h2>4. Compartilhamento de dados</h2>
-    <p>
-      O app não compartilha dados pessoais do usuário com terceiros, exceto informações tratadas automaticamente pelo provedor de anúncios.
-    </p>
-
-    <h2>5. Permissões</h2>
-    <p>O aplicativo pode solicitar a permissão:</p>
-    <ul>
-      <li><b>POST_NOTIFICATIONS</b>: usada para enviar lembretes de manutenções.</li>
-    </ul>
-
-    <h2>6. Segurança</h2>
-    <p>
-      O aplicativo utiliza boas práticas para armazenar dados localmente, porém nenhuma tecnologia é 100% segura.
-    </p>
-
-    <h2>7. Alterações</h2>
-    <p>
-      Esta Política pode ser atualizada a qualquer momento. Recomendamos revisá-la periodicamente.
-    </p>
-
-    <h2>8. Contato</h2>
-    <p>
-      Em caso de dúvidas, entre em contato:<br>
-      📧 <a href="mailto:melquenerd@gmail.com">melquenerd@gmail.com</a>
-    </p>
+<div class="header">
+  <div class="icon">
+    <svg width="34" height="34" viewBox="0 0 512 512" fill="none" stroke="#b7f6f7" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(256,256)">
+        <circle r="176" stroke-width="26"/>
+        <path d="M0,-146 L0,-124 M124,0 L146,0 M0,124 L0,146 M-146,0 L-124,0" stroke-width="21"/>
+        <path d="M0,0 L-64,-37" stroke-width="24"/>
+        <g transform="rotate(55)">
+          <path d="M0,8 L0,-70" stroke-width="24"/>
+          <path d="M-12,-142 L-12,-124 A27,27 0 1 1 12,-124 L12,-142" stroke-width="21"/>
+        </g>
+        <circle r="13" fill="#b7f6f7" stroke="none"/>
+      </g>
+    </svg>
   </div>
+  <div>
+    <h1>Política de Privacidade</h1>
+    <div class="muted">Lembrete de Manutenção · desenvolvedor Melqui</div>
+  </div>
+</div>
+
+<nav>
+  <a href="./" class="active">Política de Privacidade</a>
+  <a href="./data-deletion.html">Exclusão de dados</a>
+</nav>
+
+<p class="muted"><strong>Última atualização:</strong> julho de 2026</p>
+
+<p>
+  O aplicativo <strong>Lembrete de Manutenção</strong> (pacote <code>com.melqui.manutencoes</code>)
+  respeita a sua privacidade. Esta Política descreve quais dados são tratados e por quê ao utilizar o app.
+</p>
+
+<h2>1. Dados no seu aparelho</h2>
+<p>
+  As manutenções, categorias, datas, intervalos e o histórico de conclusões que você cadastra são
+  salvos <strong>localmente</strong> no aparelho (banco de dados Room/SQLite). Sem login, nada disso
+  sai do seu dispositivo.
+</p>
+
+<h2>2. Backup na nuvem <span class="pill">opcional</span></h2>
+<div class="card">
+  <p>
+    Se você <strong>optar por entrar com sua Conta do Google</strong>, o app ativa o backup na nuvem.
+    Nesse caso são tratados:
+  </p>
+  <ul>
+    <li><strong>E-mail, nome e ID da Conta do Google</strong> — via Firebase Authentication, para identificar sua conta;</li>
+    <li><strong>Seus dados de manutenção</strong> (manutenções, categorias, histórico e preferências) — guardados no Google Cloud Firestore, vinculados à sua conta, para sincronizar entre aparelhos.</li>
+  </ul>
+  <p class="muted">O login é totalmente opcional. Sem ele, o app funciona apenas com dados locais.</p>
+</div>
+
+<h2>3. Relatórios de falha</h2>
+<p>
+  Para melhorar a estabilidade, o app usa o <strong>Firebase Crashlytics</strong>, que coleta
+  registros de falhas, dados de diagnóstico e identificadores do dispositivo quando ocorre um erro.
+  Esses relatórios são técnicos e não identificam você pessoalmente.
+</p>
+
+<h2>4. Publicidade</h2>
+<p>
+  O app exibe anúncios do <strong>Google AdMob</strong>, que pode coletar o ID de publicidade e
+  dados do aparelho conforme as políticas do Google. Em regiões que exigem (como a União Europeia),
+  é exibido um <strong>formulário de consentimento</strong> (Google User Messaging Platform) antes de
+  carregar anúncios, e você pode rever sua escolha em <em>Configurações → Privacidade dos anúncios</em>.
+</p>
+
+<h2>5. Compartilhamento de dados</h2>
+<p>
+  Não vendemos seus dados pessoais. Os serviços do Google (Firebase Authentication, Firestore e
+  Crashlytics) atuam como processadores em nosso nome. O ID de publicidade é tratado pelo Google
+  AdMob para exibição de anúncios. Consulte a
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.
+</p>
+
+<h2>6. Permissões</h2>
+<ul>
+  <li><strong>Notificações</strong> — enviar os lembretes de manutenção;</li>
+  <li><strong>Alarme exato</strong> — disparar o lembrete no horário programado;</li>
+  <li><strong>Executar ao iniciar / ignorar otimização de bateria</strong> — manter os lembretes confiáveis mesmo com o app fechado;</li>
+  <li><strong>Internet</strong> — backup na nuvem e anúncios.</li>
+</ul>
+
+<h2>7. Retenção e exclusão de dados</h2>
+<p>
+  Você pode excluir sua conta e todos os dados a qualquer momento. Consulte a página
+  <a href="./data-deletion.html"><strong>Exclusão de dados</strong></a> para ver o passo a passo
+  e o que é apagado ou retido.
+</p>
+
+<h2>8. Público</h2>
+<p>Este aplicativo não é direcionado a crianças.</p>
+
+<h2>9. Segurança</h2>
+<p>
+  Os dados trafegam de forma criptografada (HTTPS). Adotamos boas práticas de armazenamento,
+  porém nenhuma tecnologia é 100% segura.
+</p>
+
+<h2>10. Alterações</h2>
+<p>Esta Política pode ser atualizada a qualquer momento. Recomendamos revisá-la periodicamente.</p>
+
+<h2>11. Contato</h2>
+<p>
+  Em caso de dúvidas: 📧
+  <a href="mailto:melquenerd@gmail.com">melquenerd@gmail.com</a>
+</p>
+
 </body>
 </html>
