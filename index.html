@@ -84,7 +84,7 @@
   <a href="./data-deletion.html">Exclusão de dados</a>
 </nav>
 
-<p class="muted"><strong>Última atualização:</strong> julho de 2026</p>
+<p class="muted"><strong>Última atualização:</strong> agosto de 2026</p>
 
 <p>
   O aplicativo <strong>Lembrete de Manutenção</strong> (pacote <code>com.melqui.manutencoes</code>)
@@ -111,11 +111,15 @@
   <p class="muted">O login é totalmente opcional. Sem ele, o app funciona apenas com dados locais.</p>
 </div>
 
-<h2>3. Relatórios de falha</h2>
+<h2>3. Relatórios de falha e métricas de uso</h2>
 <p>
   Para melhorar a estabilidade, o app usa o <strong>Firebase Crashlytics</strong>, que coleta
   registros de falhas, dados de diagnóstico e identificadores do dispositivo quando ocorre um erro.
-  Esses relatórios são técnicos e não identificam você pessoalmente.
+</p>
+<p>
+  Para entender como o app é utilizado, também usamos o <strong>Firebase Analytics</strong>, que
+  coleta <strong>interações no app</strong> de forma agregada — por exemplo, quando um lembrete é
+  enviado ou aberto. Esses dados são estatísticos e não identificam você pessoalmente.
 </p>
 
 <h2>4. Publicidade</h2>
@@ -128,9 +132,9 @@
 
 <h2>5. Compartilhamento de dados</h2>
 <p>
-  Não vendemos seus dados pessoais. Os serviços do Google (Firebase Authentication, Firestore e
-  Crashlytics) atuam como processadores em nosso nome. O ID de publicidade é tratado pelo Google
-  AdMob para exibição de anúncios. Consulte a
+  Não vendemos seus dados pessoais. Os serviços do Google (Firebase Authentication, Firestore,
+  Crashlytics e Analytics) atuam como processadores em nosso nome. O ID de publicidade é tratado
+  pelo Google AdMob para exibição de anúncios. Consulte a
   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.
 </p>
 

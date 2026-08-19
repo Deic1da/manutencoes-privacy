@@ -1,6 +1,6 @@
 # Política de Privacidade — Lembrete de Manutenção
 
-**Última atualização:** julho de 2026
+**Última atualização:** agosto de 2026
 **Desenvolvedor:** Melqui · **Pacote:** com.melqui.manutencoes
 
 O aplicativo **Lembrete de Manutenção** respeita a sua privacidade. Esta Política descreve quais dados são tratados e por quê ao utilizar o app. A versão navegável está em https://deic1da.github.io/manutencoes-privacy/
@@ -15,14 +15,16 @@ Se você optar por entrar com sua Conta do Google, o app ativa o backup na nuvem
 
 O login é totalmente opcional. Sem ele, o app funciona apenas com dados locais.
 
-## 3. Relatórios de falha
-O app usa o Firebase Crashlytics, que coleta registros de falhas, diagnóstico e identificadores do dispositivo quando ocorre um erro. Esses relatórios são técnicos e não identificam você pessoalmente.
+## 3. Relatórios de falha e métricas de uso
+O app usa o Firebase Crashlytics, que coleta registros de falhas, diagnóstico e identificadores do dispositivo quando ocorre um erro.
+
+Para entender como o app é utilizado, também usamos o Firebase Analytics, que coleta interações no app de forma agregada — por exemplo, quando um lembrete é enviado ou aberto. Esses dados são estatísticos e não identificam você pessoalmente.
 
 ## 4. Publicidade
 O app exibe anúncios do Google AdMob, que pode coletar o ID de publicidade e dados do aparelho. Em regiões que exigem, é exibido um formulário de consentimento (Google User Messaging Platform) antes de carregar anúncios, e a escolha pode ser revista em Configurações → Privacidade dos anúncios.
 
 ## 5. Compartilhamento de dados
-Não vendemos dados pessoais. Os serviços do Google (Authentication, Firestore e Crashlytics) atuam como processadores em nosso nome. O ID de publicidade é tratado pelo Google AdMob. Consulte: https://policies.google.com/privacy
+Não vendemos dados pessoais. Os serviços do Google (Authentication, Firestore, Crashlytics e Analytics) atuam como processadores em nosso nome. O ID de publicidade é tratado pelo Google AdMob. Consulte: https://policies.google.com/privacy
 
 ## 6. Permissões
 - **Notificações** — enviar os lembretes;
